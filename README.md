@@ -14,9 +14,9 @@ Aplicação feita com javascript para simular uma partida de ping pong.
 ### Como rodar
 
 Para rodar o jogo:
-- Baixar o arquivo pingpong.js
-- abrir o site p5.js Web Editor https://editor.p5js.org
-- Clicar em: Arquivo e depois Abrir, selecionando o arquivo pingpong.js.
+- Baixar todos os arquivos.
+- abrir o site p5.js Web Editor https://editor.p5js.org.
+- Clicar em: Arquivo e depois Abrir, selecionando os arquivos.
 - Após abrir o arquivo, clicar no botão Play no canto superior esquerdo para executar a aplicação.
 
 ![image](https://user-images.githubusercontent.com/117870158/212142488-74ac3b20-06de-458b-aaac-a34fb328a84b.png)
