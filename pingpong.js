@@ -55,7 +55,9 @@ function draw() {
   MovimentaRaqueteOponente();
   verificaColisaoRaquete(xRaqueteOponente, yRaqueteOponente);
   incluiPlacar();
-  MarcaPonto();  
+  MarcaPonto();
+//Caso a bolinha fique presa na borda
+  BolinhaNaoFicaPresa()
 }
 
 function MostraBolinha(){
@@ -141,5 +143,15 @@ function MarcaPonto(){
   if (xBolinha < 10){
     pontosDoOponente += 1;
     ponto.play();
+  }
+}
+
+function BolinhaNaoFicaPresa() {
+  if (xBolinha - raio <= 0){
+    xBolinha = 35;
+  } else {
+if (xBolinha - raio >= 588){
+      xBolinha = width - 35;
+    }
   }
 }
